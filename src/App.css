@@ -1,0 +1,108 @@
+#root{
+  margin: 0 auto;
+  height: 100vh;
+  max-width: 960px;
+}
+.main{
+  height: auto;
+  background-color: powderblue;
+}
+.make{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding: 10px;
+}
+.sub{
+  width: 100%;
+  margin: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+.inpu{
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 24px;
+  background-color: pink;
+  color: white;
+  font-weight: bold;
+}
+.mm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+label{
+  padding: 5px;
+  font-size: 26px;
+  font-weight: bold;
+}
+.todos{
+  width: 360px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+}
+.scroll{
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+}
+.todo{
+  background-color: palegoldenrod;
+  display: flex;
+  margin: 10px;
+  flex-direction: column;
+  border-radius: 10px;
+  transition: all .3s ease;
+}
+
+.todo h1{
+  margin: 0px;
+  color: brown;
+  padding: 5px;
+  word-break: break-all;
+  transition: all .3s ease;
+}
+.todo input[type="checkbox"]{
+  margin: 5px;
+  
+  width: 20px;
+  height: 20px;
+}
+.done{
+  background-color: gray;
+  font-weight: normal;
+  transition: all .3s ease;
+}
+.done h1{
+  font-size: 18px;
+  color: whitesmoke;
+  
+}
+.done div button{
+  font-size: 16px !important;
+  font-weight: normal !important;
+  background-color: darkblue !important;
+  color: white !important;
+}
+.todo div button{
+  width: 100%;
+  padding: 5px;
+  margin: 5px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: palevioletred;
+  color: white;
+  transition: all .3s ease;
+}
